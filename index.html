@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Zacharia Bachtiar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Zacharia Bachtiar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Zacharia Bachtiar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/testttt.png" alt="Zacharia Bachtiar profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Zacharia Bachtiar</h1>
+        <p class="section__text__p2">Data Scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV Zacharia Bachtiar - ATS.pdf')"
+          >
+            Download CV
+          </button>
+            <a href="#contact">
+              <button class="btn btn-color-1">
+            Contact Info
+              </button>
+            </a>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/zachariabachtiar/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/jeksilaen')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Big Man.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p> 3 Work Experiences <br> 4+ Months Training <br /> 12 Projects <br> Data Science & ML</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor Software Engineering<br /> Fresh Graduate (2024) <br> Telkom University <br> 3.91 GPA</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              A fresh graduate of Software Engineering in Telkom University with a GPA of 3.91. 
+              Enrolled as a student in Purwadhika Digital Technology School studying Data Science and Machine Learning. 
+              I had 2 experience as an intern in the software department, and 1 part-time experience as a practicum assistant. 
+              I excel at both teamwork and individual work, adapting quickly to new environments and challenges. 
+              <b>Currently looking for a job/internship as a Data Scientist, Machine Learning/AI Engineer, Data Analyst, or Data Engineer.</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Golang</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Basic/Primary</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git/Github</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Apache Spark</h3>
+                  <p>Basic/Primary</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Looker Studio</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Colab</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scikit Learn</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Boost Models</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tensorflow</h3>
+                  <p>Basic/Primary</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Folium</h3>
+                  <p>Basic/Primary</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="experience" class="resume section" style="margin-top: -2rem;"> 
+      <p class="section__text__p1">Examine My</p>
+      <h1 class="title">Experiences</h1>
+      <div class="experience-details-container" style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+    
+        <div class="resume-item" style="flex: 1; min-width: 300px;">
+          <h4>Data Scientist Program</h4>
+          <h5>06/2024 - 09/2024</h5>
+          <p><em>Purwadhika Digital Technology School</em></p>
+          <br>
+          <ul>
+            <li>Dedicated 4 months gaining deep knowledge in Python Programming, Data Analysis, and Machine Learning, developed 12 impactful projects.</li>
+            <li>Conducted extensive data analysis using Tableau and Looker Studio, along with Python libraries for exploratory data analysis.</li>
+            <li>Explored various AI and machine learning concepts, including different model algorithms and metrics, deep learning techniques, and data
+              processing with Apache Spark.</li>
+          </ul>
+        </div>
+    
+        <div class="resume-item" style="flex: 1; min-width: 300px;">
+          <h4>Back-end Developer Intern</h4>
+          <h5>09/2023 - 02/2024</h5>
+          <p><em>Telkom Indonesia</em></p>
+          <br>
+          <ul>
+            <li>Assisted and collaborated with the developer team in the backend operations using Gitlab and Node.js.</li>
+            <li>Performed unit test automation for backend APIs using Mocha as a testing library.</li>
+            <li>Performed query creations on a third party data services called BigQuery (BigBox) and recorded 350+ API using Sheets.</li>
+          </ul>
+        </div>
+    
+        <div class="resume-item" style="flex: 1; min-width: 300px;">
+          <h4>Programmer Intern</h4>
+          <h5>06/2023 - 08/2023</h5>
+          <p><em>LDKPI - Ministry of Finance</em></p>
+          <br>
+          <ul>
+            <li>Developed a front-end web application with multi-language features for LDKPI using React.js.</li>
+            <li>Developed a web API integrated with the front-end using the headless CMS Strapi.js.</li>
+            <li>Performed manual deployment to a remote server (Linux CentosOS) and configured the server using Nginx.</li>
+          </ul>
+        </div>
+    
+        <div class="resume-item" style="flex: 1; min-width: 300px;">
+          <h4>Operating Systems Practicum Assistant</h4>
+          <h5>02/2023 - 07/2023</h5>
+          <p><em>Informatics Laboratory Telkom University</em></p>
+          <br>
+          <ul>
+            <li>Providing guided assistance twice a week to practicum students on Operating Systems such as Linux, Ubuntu, dan Xinu.</li>
+            <li>Supervise the flow of the practicum process for 70+ practicum students.</li>
+          </ul>
+        </div>
+    
+      </div>
+    </section>
+      <section id="projects" style="margin-top: 7rem;">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filter-container" style="text-align: center; margin-bottom: 2rem;">
+    <button id="all" class="filter-btn" onclick="filterProjects('all')" style="font-size: 1rem; padding: 10px 20px; margin: 5px; background-color: black; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+      All
+    </button>
+    <button id="frontend" class="filter-btn" onclick="filterProjects('frontend')" style="font-size: 1rem; padding: 10px 20px; margin: 5px; background-color: black; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+      Programming
+    </button>
+    <button id="backend" class="filter-btn" onclick="filterProjects('backend')" style="font-size: 1rem; padding: 10px 20px; margin: 5px; background-color: black; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+      Data Analysis
+    </button>
+    <button id="fullstack" class="filter-btn" onclick="filterProjects('fullstack')" style="font-size: 1rem; padding: 10px 20px; margin: 5px; background-color: black; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+      Machine Learning
+    </button>
+    <button id="others" class="filter-btn" onclick="filterProjects('others')" style="font-size: 1rem; padding: 10px 20px; margin: 5px; background-color: black; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+      Others
+    </button>
+  </div>
+
+  <div class="experience-details-container" style="display: flex; justify-content: center;">
+    <div class="about-containers" style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around;">
+  
+      <!-- Project Item 1 -->
+      <div class="details-container color-container project-item fullstack" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/1.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Telco Customer Churn Classification</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/capstone-modul-3.git')" style="padding: 10px; margin: 5px;">Github</button>
+        </div>
+      </div>
+
+      <!-- Project Item 6 -->
+      <div class="details-container color-container project-item backend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/2.png" alt="Project 6" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Airbnb Bangkok Listing Analysis</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/capstone-modul-2.git')" style="padding: 10px; margin: 5px;">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://public.tableau.com/shared/KQCYQGFH2?:display_count=n&:origin=viz_share_link')" style="padding: 10px; margin: 5px;">Tableau Dashboard</button>
+        </div>
+      </div>
+
+      <!-- Project Item 3 -->
+      <div class="details-container color-container project-item fullstack" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/3.png" alt="Project 3" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Gold Prices Forecasting</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://colab.research.google.com/drive/1Bk7miKkqsj9WzXBc8yMNuYzVg7w_opMy?usp=sharing')" style="padding: 10px; margin: 5px;">Colab</button>
+        </div>
+      </div>
+  
+      <!-- Project Item 5 -->
+      <div class="details-container color-container project-item backend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/4.png" alt="Project 5" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">RFM Segmentation Analysis</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://colab.research.google.com/drive/1b5gLW2WcC79Ys0u-gT_6LoqETS8t6Re5?usp=sharing')" style="padding: 10px; margin: 5px;">Colab</button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://public.tableau.com/app/profile/zia.tabaruk/viz/RFMSupermarketAnalysis/StoryRFMSupermarketAnalysis?publish=yes')" style="padding: 10px; margin: 5px;">Tableau Dashboard</button>
+        </div>
+      </div>
+      
+      <!-- Project Item 2 -->
+      <div class="details-container color-container project-item fullstack" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/5.png" alt="Project 2" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">School Student Performance Prediction</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://colab.research.google.com/drive/1gQ_th8C38SuUjgT5siGaLvNT9uwqLuMz?usp=sharing')" style="padding: 10px; margin: 5px;">Colab</button>
+        </div>
+      </div>
+  
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item backend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/6.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Cohort Retention Analysis</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://colab.research.google.com/drive/1g-SFifZVmVDpUp22EbdLAzAql4-qszHi#scrollTo=c7cce6f5-d39e-4926-9f1d-f91072854b24')" style="padding: 10px; margin: 5px;">Colab</button>
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://lookerstudio.google.com/u/2/reporting/a78ab318-3602-4823-b9ed-0f3176411f93/page/sLuCE/edit')" style="padding: 10px; margin: 5px;">Looker Dashboard</button>
+        </div>
+      </div>
+
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item frontend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/7.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Warehouse Management CRUD Python</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/capstone_modul_1.git')" style="padding: 10px; margin: 5px;">Github</button>
+        </div>
+      </div>
+
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item frontend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/8.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">BandingBot</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/BandingBot.git')" style="padding: 10px; margin: 5px;">Github</button>
+        </div>
+      </div>
+
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item frontend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/9.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">HackChat</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/HackChat.git')" style="padding: 10px; margin: 5px;">Github</button>
+        </div>
+      </div>
+
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item frontend" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/10.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">AnaKost</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jeksilaen/anakost-server.git')" style="padding: 10px; margin: 5px;">Github</button>
+        </div>
+      </div>
+
+      <!-- Project Item 4 -->
+      <div class="details-container color-container project-item others" style="width: 30%; margin: 1.5%; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="article-container">
+          <img src="./assets/11.png" alt="Project 4" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title" style="text-align: center;">Medium - Python Blog</h2>
+        <div class="btn-container" style="text-align: center; margin: 10px 0;">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://medium.com/@zachariabachtiar/teknik-penanganan-error-di-python-dengan-blok-try-except-4701aed980f7')" style="padding: 10px; margin: 5px;">Blog</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+</section>
+      
+      <script>
+        function filterProjects(category) {
+          var projects = document.getElementsByClassName('project-item');
+          var buttons = document.getElementsByClassName('filter-btn');
+      
+          // Show/hide projects based on the selected category
+          for (var i = 0; i < projects.length; i++) {
+            if (category === 'all') {
+              projects[i].style.display = 'block';
+            } else {
+              if (projects[i].classList.contains(category)) {
+                projects[i].style.display = 'block';
+              } else {
+                projects[i].style.display = 'none';
+              }
+            }
+          }
+      
+          // Update the styling of the buttons to indicate the active selection
+          for (var j = 0; j < buttons.length; j++) {
+            if (buttons[j].id === category) {
+              buttons[j].style.backgroundColor = 'black';
+              buttons[j].style.color = 'white';
+            } else {
+              buttons[j].style.backgroundColor = 'white';
+              buttons[j].style.color = 'black';
+            }
+          }
+        }
+      
+        // Initialize with all projects displayed and 'All' button active
+        filterProjects('all');
+      </script>
+      
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:zachariabachtiar@gmail.com">zachariabachtiar@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+            <p><a  onclick="window.open('https://www.linkedin.com/in/zachariabachtiar/')">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Zacharia Bachtiar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
